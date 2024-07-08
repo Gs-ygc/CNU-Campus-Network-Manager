@@ -14,8 +14,7 @@ class TextStyle:
     GREEN = '\033[1;32m'   # 加粗绿色
     END = '\033[0m'        # 恢复默认样式
 
-# var epHTTPPort=801; // eportal http 端口
-
+# var epHTTPPort=801; // eportal http 端口        
 # var enHTTPSPort=802; // eportal https 端口
 
 class CnuNet :

@@ -2,6 +2,10 @@
 
 This project is designed to manage CNU campus network connections, allowing server and terminal users to connect and manage their own campus network accounts.
 
+## TODO
+
+[] Login Out
+[] Suport WIFI/WLAN
 ## Installation
 
 1. Clone the repository:
