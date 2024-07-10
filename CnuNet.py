@@ -293,7 +293,7 @@ if __name__ == "__main__":
         logging.error(cnu_net.online_json["msg"])
         if cnu_net.login() :
             print("Login is success")
-        # cnu_net.print_response_ditc()
+            exit(0)
         else :
             print("Login is error")
             exit(-1)
@@ -303,14 +303,6 @@ if __name__ == "__main__":
     cnu_net.update_login_usr_info()
     cnu_net.print_login_usr_info()
 
-    # if cnu_net.test_net_init()==True:
-        # cnu_net.update_response_ditc()
-        # cnu_net.print_response_ditc()
-        # cnu_net.post(cnu_net.ipMsg_url, cnu_net.ipMsg_post_data)
-        # cnu_net.post(cnu_net.userInfo_url,cnu_net.userInfo_post_data)
-        
-        # cnu_net.update_response_ditc()
-        # cnu_net.print_response_ditc()
     exit(-1)
 
 
