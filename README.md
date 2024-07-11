@@ -4,8 +4,9 @@ This project is designed to manage CNU campus network connections, allowing serv
 
 ## TODO
 
-[] Login Out
-[] Suport WIFI/WLAN
+- [] Login Out
+- [] Suport WIFI/WLAN
+
 ## Installation
 
 1. Clone the repository:
